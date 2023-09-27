@@ -21,7 +21,7 @@ const menu_data:IMenuDataType[] = [
   },
   {
     id:2,
-    title:'EXPERIENCE',
+    title:'FEATURES',
     link:'#experienceArea',
   },
   {
