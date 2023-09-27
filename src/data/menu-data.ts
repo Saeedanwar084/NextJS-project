@@ -60,6 +60,13 @@ const menu_data:IMenuDataType[] = [
     title:'COMMUNITY',
     link:'#communitypage',
   },
+  {
+    id:6,
+    title:'CONTACT US',
+    link:'#contactus',
+  },
+  // 
 ]
+
 
 export default menu_data;

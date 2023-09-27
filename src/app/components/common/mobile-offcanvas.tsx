@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo/Vocalify 02 (1).png';
 import social_data from "@/data/social-data";
 import MobileMenus from "./mobile-menus";
 import Link from "next/link";
@@ -30,14 +30,14 @@ const MobileOffCanvas = ({openMobileOffCanvas,setOpenMobileOffCanvas}:IProps) =>
               <Image src={logo} alt="Logo" style={{height:'auto'}} />
             </Link>
           </div>
-          <div className="tgmobile__search">
-            <form action="#">
-              <input type="text" placeholder="Search here..." />
-              <button>
-                <i className="flaticon-loupe"></i>
-              </button>
-            </form>
-          </div>
+          {/* <div className="tgmobile__search"> */}
+            {/* <form action="#"> */}
+              {/* <input type="text" placeholder="Search here..." /> */}
+              {/* <button> */}
+                {/* <i className="flaticon-loupe"></i> */}
+              {/* </button> */}
+            {/* </form> */}
+          {/* </div> */}
           <div className="tgmobile__menu-outer">
             <MobileMenus/>
           </div>

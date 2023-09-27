@@ -86,7 +86,7 @@ const Header = ({style_2=false}:{style_2?:boolean}) => {
       </div>
 
       {/* <!-- header-search --> */}
-      <SearchPopup setIsSearchOpen={setIsSearchOpen} isSearchOpen={isSearchOpen} />
+      {/* <SearchPopup setIsSearchOpen={setIsSearchOpen} isSearchOpen={isSearchOpen} /> */}
       {/* <!-- header-search-end --> */}
 
       {/* off canvas start */}

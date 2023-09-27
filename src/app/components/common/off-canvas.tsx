@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo/Vocalify 02 (1).png';
 import social_data from '@/data/social-data';
 
 // prop type 

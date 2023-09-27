@@ -20,10 +20,10 @@ const AboutAreaThree = () => {
                         <i>ern nft</i>
                         <i>gam<b>ing</b></i>
                     </h2>
-                    <div className="about__content-circle">
+                    {/* <div className="about__content-circle">
                         <Image src={circle_img} alt="img"/>
                         <Circle/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="col-xl-8">

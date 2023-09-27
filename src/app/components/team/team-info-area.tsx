@@ -12,7 +12,7 @@ const TeamInfoArea = () => {
             <div className="col-12">
                 <div className="team__info-wrap">
                     <div className="team__info-discord">
-                        <div className="about__content-circle">
+                        {/* <div className="about__content-circle">
                             <Image src={circle_img} alt="img" width={104} height={104} />
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
                                 <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
@@ -21,7 +21,7 @@ const TeamInfoArea = () => {
                                 </text>
                             </svg>
                             <i className="flaticon-discord"></i>
-                        </div>
+                        </div> */}
                         <div className="team__info-discord-info">
                             <span className="sub">Join Us</span>
                             <h5 className="title"><Link href="https://discord.com/" target="_blank">DISCORD</Link></h5>

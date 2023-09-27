@@ -49,7 +49,7 @@ const AboutAreaTwo = () => {
                         <p style={{ fontSize: "20px" }}>A marketing plan is a comprehensive document or blueprint that outlines a company advertising and marketing efforts for the comming year.</p>
                      </div>
                      <div className="about__content-bottom">
-                        <div className="about__content-circle">
+                        {/* <div className="about__content-circle"> */}
                            {/* <Image src={circel} alt="img" style={imgStyle} /> */}
                            {/* <Image src={rotatedpic} alt="img" style={imgStyle}/> */}
                            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
@@ -58,7 +58,7 @@ const AboutAreaTwo = () => {
                                     <textPath href="#textPath">super nft Gaming sits</textPath>
                                  </text>
                               </svg> */}
-                        </div>
+                        {/* </div> */}
                         <div className="about__funFact-wrap">
                            <div className="about__funFact-lists">
                               <div className="about__funFact-item">

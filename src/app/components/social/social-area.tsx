@@ -50,7 +50,7 @@ const social_data:{
 
 const SocialArea = () => {
   return (
-    <section className="social__area social-bg" style={{backgroundImage:`url(${social_bg.src})`}}>
+    <section id='contactus' className="social__area social-bg" style={{backgroundImage:`url(${social_bg.src})`}}>
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7 col-md-10">

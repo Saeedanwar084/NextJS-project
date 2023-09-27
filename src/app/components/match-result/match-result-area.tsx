@@ -51,7 +51,7 @@ const MatchResultArea = () => {
         </div>
         <StreamersArea1/>
         
-        <div className="row" style={{marginTop: 0}}>
+        {/* <div className="row" style={{marginTop: 0}}>
             <div className="col-12" style={{marginTop: 0}}>
                 <div className="grand__final" style={{marginTop: 0}}>
                     <div className="grand__final-button" style={{marginTop: 0}}>
@@ -62,7 +62,7 @@ const MatchResultArea = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
    </section>
   );
