@@ -115,14 +115,11 @@ const AboutAreaTwo = () => {
                   <h3 className="title" style={{ fontSize: '25px' }} >Token Allocation</h3>
                </div>
                <div className="about__content-two mb-20">
-                  <p style={{ fontSize: "20px", textAlign: "justify" }}>Public Sale (Through IEO): 40%
-                  </p>
-                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Team and Advisors: 20%</li>
-                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Community and Ecosystem: 15%
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Public Sale: 40%</li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Team: 20% Locked up for 2 years</li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Marketing 15%
                   </li>
-                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Research and Development: 15%</li>
-                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Reserve: 10%
-                  </li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Stagewise sale 25%</li>
                </div>
                <div className="section__title text-start mt-60 mb-20">
                   <h3 className="title" style={{ fontSize: '25px' }} >Vesting Period</h3>
