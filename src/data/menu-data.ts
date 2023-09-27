@@ -21,43 +21,44 @@ const menu_data:IMenuDataType[] = [
   },
   {
     id:2,
-    title:'ABOUT US',
-    link:'/about',
+    title:'EXPERIENCE',
+    link:'#experienceArea',
   },
   {
     id:3,
-    title:'TOURNAMENT',
-    link:'#',
-    sub_menu:[
-      {title:'TOURNAMENT',link:'/tournament'},
-      {title:'TOURNAMENT Single',link:'/tournament-details'},
-    ]
+    title:'TOKENOMICS',
+    link:'#TOKENOMICSArea'
   },
   {
     id:4,
-    title:'PAGES',
-    link:'#',
-    sub_menu:[
-      {title:'Gaming Shop',link:'/shop'},
-      {title:'Shop Details',link:'/shop-details'},
-      {title:'Our Services',link:'/services'},
-      {title:'Services Details',link:'/service-details'},
-      {title:'Player Details',link:'/team-details'},
-    ]
+    title:'VOICES',
+    link:'#topvoices'
   },
-  {
-    id:5,
-    title:'News',
-    link:'#',
-    sub_menu:[
-      {title:'Our Blog',link:'/blog'},
-      {title:'Blog Details',link:'/blog-details'}
-    ]
-  },
+  // {
+  //   id:4,
+  //   title:'PAGES',
+  //   link:'#',
+  //   sub_menu:[
+  //     {title:'Gaming Shop',link:'/shop'},
+  //     {title:'Shop Details',link:'/shop-details'},
+  //     {title:'Our Services',link:'/services'},
+  //     {title:'Services Details',link:'/service-details'},
+  //     {title:'Player Details',link:'/team-details'},
+  //   ]
+  // },
+  // {
+  //   id:5,
+  //   title:'News',
+  //   link:'#',
+  //   sub_menu:[
+  //     {title:'Our Blog',link:'/blog'},
+  //     {title:'Blog Details',link:'/blog-details'}
+  //   ]
+  // },
   {
     id:6,
-    title:'CONTACT',
-    link:'/contact',
+    title:'COMMUNITY',
+    link:'#communitypage',
   },
 ]
 

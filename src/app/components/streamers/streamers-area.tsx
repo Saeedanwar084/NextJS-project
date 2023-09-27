@@ -128,7 +128,7 @@ const slider_setting = {
 };
 const StreamersArea = () => {
   return (
-    <section className="streamers__area section-pt-95 section-pb-120">
+    <section id="topvoices" className="streamers__area section-pt-95 section-pb-120">
      <div className="container">
         <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7 col-md-10">

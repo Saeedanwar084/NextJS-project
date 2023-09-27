@@ -80,7 +80,7 @@ const ProjectArea = () => {
   }
   return (
     <>
-      <section className="project-area project-bg section-pt-120 section-pb-140">
+      <section id="communitypage" className="project-area project-bg section-pt-120 section-pb-140">
         <div className="container custom-container">
           <div className="project__wrapper">
             <div className="section__title text-start">

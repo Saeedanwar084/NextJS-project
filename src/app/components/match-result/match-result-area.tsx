@@ -38,7 +38,7 @@ function MatchWinnerItem ({name,amount,img,id,place}:IWinnerItem) {
 
 const MatchResultArea = () => {
   return (
-    <section className="match__result-area">
+    <section id="experienceArea" className="match__result-area">
     <div className="match__result-bg" style={{backgroundImage:`url(${result_bg.src})`}}></div>
     <div className="container">
         <div className="row justify-content-center">

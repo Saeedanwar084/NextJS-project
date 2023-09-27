@@ -77,26 +77,7 @@ const Header = ({style_2=false}:{style_2?:boolean}) => {
                       )}
                     </ul>
                   </div>
-                  <div className="tgmenu__action d-none d-md-block">
-                    <ul className="list-wrap">
-                      <li className="search">
-                        <a onClick={() => handleOpenSearch('/assets/audio/click.wav')} className="cursor-pointer">
-                          <i className="flaticon-search-1"></i>
-                        </a>
-                      </li>
-                      <li className="header-btn">
-                        <Link href="/contact" className={`${style_2?'tg-btn-3 tg-svg':'tg-border-btn'}`}>
-                          {style_2 && <SvgIconCom icon={shape} id="svg-2" />}
-                          <i className="flaticon-edit"></i> ~sing in
-                        </Link>
-                      </li>
-                      <li className="side-toggle-icon" onClick={()=> handleOpenOffCanvas('/assets/audio/click.wav')}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </li>
-                    </ul>
-                  </div>
+                  
                 </nav>
               </div>
             </div>

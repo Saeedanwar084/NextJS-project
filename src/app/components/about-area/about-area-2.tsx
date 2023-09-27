@@ -20,7 +20,7 @@ const AboutAreaTwo = () => {
 
    return (
       <>
-         <section className="about__area-two section-pt-160 section-pb-190">
+         <section id="TOKENOMICSArea" className="about__area-two section-pt-160 section-pb-190">
             <div className="container">
                <div className="row justify-content-center align-items-center">
                   <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
