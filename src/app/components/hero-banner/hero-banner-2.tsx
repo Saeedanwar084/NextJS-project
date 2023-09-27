@@ -27,7 +27,7 @@ const HeroBannerTwo = () => {
                 className="banner__btn wow bounceInLeft"
                 data-wow-delay=".6s"
               >
-                <Link  href="/contact" className="tg-btn-3 tg-svg mx-auto">
+                <Link  href="#contactus" className="tg-btn-3 tg-svg mx-auto">
                   <SvgIconCom  icon={shape} id="svg-1"/>
                   <span>contact us</span>
                 </Link>

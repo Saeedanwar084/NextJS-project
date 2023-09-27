@@ -5,6 +5,7 @@ import service_img_1 from '@/assets/img/others/services_img01.jpg';
 import service_img_2 from '@/assets/img/others/services_img02.jpg';
 import service_img_3 from '@/assets/img/others/services_img03.jpg';
 import service_img_4 from '@/assets/img/others/services_img04.jpg';
+import service_img_5 from '@/assets/img/others/imgs-1.jpg';
 import Link from 'next/link';
 
 // service images
@@ -18,26 +19,26 @@ const service_items:{
   {
     id:1,
     icon:'flaticon-diamond',
-    title:'Year Experience',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    title:'Unparalleled Realism',
+    desc:'Our AI-driven voice cloning technology captures the subtle nuances of speech, from intonation to emotion, delivering an incredibly lifelike auditory experience.'
   },
   {
     id:2,
     icon:'flaticon-user-profile',
-    title:'Expert Teams',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    title:'User-Friendly Interface',
+    desc:'With an intuitive dashboard and simple customization options, creating your own voice clone has never been easier or more accessible.'
   },
   {
     id:3,
     icon:'flaticon-ethereum',
-    title:'Best NFT Game',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    title:'High-Quality Audio',
+    desc:'Our algorithms generate crystal-clear audio output, ensuring that your voice clones meet the highest industry standards for sound quality.'
   },
   {
     id:4,
     icon:'flaticon-settings-1',
-    title:'Worldwide Client',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    title:'Real-Time Rendering',
+    desc:'Need a voice clone in a pinch? Our powerful algorithms can generate voiceovers in real-time, speeding up your creative process.'
   }
 ];
 
@@ -52,8 +53,8 @@ const ServicesArea = () => {
     setActiveIndex(index);
   };
   return (
-    <section className="services-area services__bg-color section-pt-120 section-pb-120">
-    <div className="container">
+    <section style={{paddingBottom: "50px"}} className="services-area services__bg-color section-pt-120 section-pb-120">
+    <div className="container  mb-60">
         <div className="row align-items-end align-items-xl-start">
             <div className="col-lg-6">
                 <div className="section__title text-start mb-65">
@@ -76,14 +77,14 @@ const ServicesArea = () => {
             </div>
             <div className="col-lg-6">
                 <div className="services__images">
-                  {service_images.map((s,i) => (
-                    <div key={i} className={`services__images-item ${activeIndex === i ? "active" : ""}`}>
-                        <Image src={s} alt="img" style={{width:'100%',height:'100%'}} />
-                        <Link href="/service-details" className="services__link">
-                            <i className="flaticon-next"></i>
-                        </Link>
+                  <div className={`services__images-item active `}>
+                        <Image src={service_img_5} alt="img" style={{width:'100%',height:'100%'}} />
                     </div>
-                  ))}
+                  {/* {service_images.map((s,i) => ( */}
+                        {/* <Link href="/service-details" className="services__link"> */}
+                            {/* <i className="flaticon-next"></i> */}
+                        {/* </Link> */}
+                  {/* ))} */}
                 </div>
             </div>
         </div>

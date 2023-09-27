@@ -24,7 +24,7 @@ export default function ServicesPage() {
       {/* main area start */}
       <main className="main--area">
         {/* breadcrumb area start */}
-        <BreadcrumbArea title="SERVICES" subtitle="OUR SERVICES" bg={brd_bg} brd_img={brd_img} />
+        <BreadcrumbArea title="FEATURES" subtitle="FEATURES" bg={brd_bg} brd_img={brd_img} />
         {/* breadcrumb area end */}
 
         {/* services area start */}
@@ -32,11 +32,11 @@ export default function ServicesPage() {
         {/* services area end */}
 
         {/* video area start */}
-        <VideoArea/>
+        {/* <VideoArea/> */}
         {/* video area end */}
 
         {/* road map area start */}
-        <RoadMapArea/>
+        {/* <RoadMapArea/> */}
         {/* road map area end */}
 
       </main>
