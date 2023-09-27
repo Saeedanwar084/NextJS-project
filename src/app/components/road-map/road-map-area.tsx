@@ -22,36 +22,54 @@ const road_map_lists: IRoadMap[] = [
   {
     id: 1,
     active: true,
-    title: "season 1",
+    title: "Q1-Part-1 2024",
     lists: [
-      { active: true, text: "Battle Practice Mode" },
-      { active: true, text: "iOS Open Beta" },
-      { active: true, text: "Land Creation & Building" },
-      { active: true, text: "Land Creation & Building" },
+      { active: true, text: "Platform Launch: Official release of the Vocalify platform.AI Model Marketplace Debut: Introduction of premium voice models.Staking Program Initiation: Begin staking options for VCF holders." },
     ],
   },
   {
     id: 2,
     active: false,
-    title: "season 2",
+    title: "Q2-Part-2 2024",
     lists: [
-      { active: true, text: "Battle Practice Mode" },
-      { active: true, text: "iOS Open Beta" },
-      { active: false, text: "Land Creation & Building" },
-      { active: false, text: "Land Creation & Building" },
+      { active: true, text: "Mobile App Launch: Release of Vocalify mobile application for iOS and Android. Advanced Real-Time Rendering: Implementation of faster, more efficient real-time voice cloning.Liquidity Pool Expansion: Increase liquidity pools across decentralized exchanges." },
     ],
   },
   {
     id: 3,
     active: false,
-    title: "season 3",
+    title: "Q2-Part-1 2024",
     lists: [
-      { active: false, text: "Battle Practice Mode" },
-      { active: false, text: "iOS Open Beta" },
-      { active: false, text: "Land Creation & Building" },
-      { active: false, text: "Land Creation & Building" },
+      { active: true, text: "Community Showcase: Monthly spotlight on exceptional projects and contributions.Governance Mechanism: Introduction of token-based governance.Strategic Partnerships: Announcement of collaborations with key industry players." },
     ],
   },
+  // {
+  //   id: 4,
+  //   active: false,
+  //   title: "Q2-Part-2 2024",
+  //   lists: [
+  //     { active: true, text: "Mobile App Launch: Release of Vocalify mobile application for iOS and Android. Advanced Real-Time Rendering: Implementation of faster, more efficient real-time voice cloning.Liquidity Pool Expansion: Increase liquidity pools across decentralized exchanges." },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   active: false,
+  //   title: "Q3- 2024",
+  //   lists: [
+  //     { active: true, text: "Voice Customization Suite: Advanced tools for fine-tuning voice models.NFT Integration: Unique, tradable voice models enabled by blockchain.Global Expansion: Extend market reach to new geographical areas." },
+  //   ],
+  // },
+  // {
+  //   id: 3,
+  //   active: false,
+  //   title: "season 3",
+  //   lists: [
+  //     { active: false, text: "Battle Practice Mode" },
+  //     { active: false, text: "iOS Open Beta" },
+  //     { active: false, text: "Land Creation & Building" },
+  //     { active: false, text: "Land Creation & Building" },
+  //   ],
+  // },
 ];
 
 const RoadMapArea = () => {
@@ -77,15 +95,13 @@ const RoadMapArea = () => {
               <div className="row">
                 <div className="col-xl-5 col-lg-6">
                   <div className="roadMap__content">
-                    <h2 className="title">a look into roadmaps seasons</h2>
+                    <h2 className="title">ROADMAP</h2>
                     <p>
-                      With Season 1 Ending with our play and Duis elementum
-                      sollicitudin is yaugue euismods Nulla ulla Player-focused
-                      updates games from Mobile App and Enjoy.
+                    Our roadmap is a living document that outlines the key milestones we aim to achieve as we continue to innovate and expand the Vocalify platform. We are committed to delivering exceptional value to our community, and this roadmap serves as our strategic blueprint for the journey ahead.
                     </p>
-                    <Link href="/contact" className="tg-btn-1 -btn-yellow">
-                      <span>roadmap</span>
-                    </Link>
+                    {/* <Link href="/contact" className="tg-btn-1 -btn-yellow"> */}
+                      {/* <span>roadmap</span> */}
+                    {/* </Link> */}
                   </div>
                   <div className="roadMap__img">
                     <Image

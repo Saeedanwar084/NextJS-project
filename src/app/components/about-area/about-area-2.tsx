@@ -50,9 +50,9 @@ const AboutAreaTwo = () => {
                      </div>
                      <div className="about__content-bottom">
                         {/* <div className="about__content-circle"> */}
-                           {/* <Image src={circel} alt="img" style={imgStyle} /> */}
-                           {/* <Image src={rotatedpic} alt="img" style={imgStyle}/> */}
-                           {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
+                        {/* <Image src={circel} alt="img" style={imgStyle} /> */}
+                        {/* <Image src={rotatedpic} alt="img" style={imgStyle}/> */}
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
                                  <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
                                  <text>
                                     <textPath href="#textPath">super nft Gaming sits</textPath>
@@ -80,7 +80,11 @@ const AboutAreaTwo = () => {
                                  <p>TYPE</p>
                               </div>
                            </div>
-                           <div className="row" style={{ marginTop: "20px" }}>
+
+                           {/* <div className=""> */}
+                           {/* </div> */}
+
+                           {/* <div className="row" style={{ marginTop: "20px" }}>
                               <div className="col-12" >
                                  <div className="grand__final" >
                                     <div className="grand__final-button" >
@@ -91,12 +95,75 @@ const AboutAreaTwo = () => {
                                     </div>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                   </div>
                </div>
+               <div className="section__title text-start mt-60 mb-20">
+                  <h3 className="title" style={{ fontSize: '25px' }} >Token Utility</h3>
+               </div>
+               <div className="about__content-two mb-20">
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>VCFs serve multiple functions within the Vocalify platform:</p>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Purchase Voice Models: Use VCFs to acquire premium voice models from our AI Model Marketplace.</li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Access Exclusive Features: Unlock advanced functionalities and customization options.</li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Community Rewards: Earn VCFs by contributing to forums, submitting projects, or participating in community challenges.</li>
+               </div>
+
+
+               <div className="section__title text-start mt-60 mb-20">
+                  <h3 className="title" style={{ fontSize: '25px' }} >Token Allocation</h3>
+               </div>
+               <div className="about__content-two mb-20">
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>Public Sale (Through IEO): 40%
+                  </p>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Team and Advisors: 20%</li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Community and Ecosystem: 15%
+                  </li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Research and Development: 15%</li>
+                  <li style={{ marginLeft: "20px", textAlign: "justify" }}>Reserve: 10%
+                  </li>
+               </div>
+               <div className="section__title text-start mt-60 mb-20">
+                  <h3 className="title" style={{ fontSize: '25px' }} >Vesting Period</h3>
+               </div>
+               <div className="about__content-two mb-20">
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>Tokens allocated to the team and advisors are subject to a 24-month vesting period to ensure long-term commitment.</p>
+               </div>
+
+               <div className="section__title text-start mt-60 mb-20">
+                  <h3 className="title" style={{ fontSize: '25px' }} >Staking</h3>
+               </div>
+               <div className="about__content-two mb-20">
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>Stake your VCFs to earn rewards in the form of additional tokens, discounted services, or exclusive access to beta features.</p>
+               </div>
+
+               <div className="section__title text-start mt-60 mb-20">
+                  <h3 className="title" style={{ fontSize: '25px' }} >Liquidity Pools</h3>
+               </div>
+               <div className="about__content-two mb-20">
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>We maintain liquidity pools on major decentralized exchanges to facilitate easy trading and accessibility of VCFs.</p>
+               </div>
+
+               <div className="section__title text-start mt-60 mb-20">
+                  <h3 className="title" style={{ fontSize: '25px' }} >Governance</h3>
+               </div>
+               <div className="about__content-two mb-20">
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>VCF holders have the privilege of participating in governance decisions to help shape the future of the platform, from feature development to token utility enhancements.</p>
+               </div>
+
+               <div className="section__title text-start mt-60 mb-20">
+                  <h3 className="title" style={{ fontSize: '25px' }} >Security and Compliance</h3>
+               </div>
+               <div className="about__content-two mb-20">
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>We adhere to strict security protocols to ensure the integrity and safety of all token transactions. Our smart contracts are audited by reputable third-party organizations to guarantee compliance with industry standards.</p>
+                  <p style={{ fontSize: "20px", textAlign: "justify" }}>
+                     By understanding our tokenomics, you re better equipped to engage with the Vocalify platform in a meaningful way. We are excited about the potential that VCF brings to our community and the broader voice technology ecosystem.
+                  </p>
+               </div>
+
             </div>
+
          </section>
 
          {/* video modal start */}

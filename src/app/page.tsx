@@ -11,7 +11,7 @@ import ProjectArea from "./components/projects/project-area";
 import SocialArea from "./components/social/social-area";
 import BrandArea from "./components/brand/brand-area";
 import FooterTwo from "@/layout/footer/footer-2";
-
+import RoadMapArea from "./components/road-map/road-map-area";
 export const metadata: Metadata = {
   title: "Home Page Two",
 };
@@ -42,6 +42,7 @@ export default function HomeTwo() {
 
         {/* streamers area start */}
         <StreamersArea/>
+        <RoadMapArea/>
         {/* streamers area end */}
 
         </div>
@@ -52,7 +53,7 @@ export default function HomeTwo() {
         {/* upcoming matches end */}
 
         {/* project area start */}
-        <ProjectArea/>
+        {/* <ProjectArea/> */}
         {/* project area end */}
 
         {/* social area start */}
