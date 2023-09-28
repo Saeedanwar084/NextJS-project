@@ -10,6 +10,7 @@ import SvgIconCom from '../common/svg-icon-anim';
 import TextAnimation from '../common/text-animation';
 // import StreamersArea from '../streamers/streamers-area';
 import StreamersArea1 from './streamers-area';
+import ServicesArea from '../services/services-area';
 // img style 
 const imgStyle = {
     height: 'auto'
@@ -49,8 +50,9 @@ const MatchResultArea = () => {
                         </div>
                     </div>
                 </div>
-                <StreamersArea1 />
-                <div className="row" style={{ marginTop: "20px" }}>
+                <ServicesArea/>
+                {/* <StreamersArea1 /> */}
+                {/* <div className="row" style={{ marginTop: "20px" }}>
                     <div className="col-12" >
                         <div className="grand__final" >
                             <div className="grand__final-button" >
@@ -61,7 +63,7 @@ const MatchResultArea = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="row" style={{marginTop: 0}}>
             <div className="col-12" style={{marginTop: 0}}>
                 <div className="grand__final" style={{marginTop: 0}}>

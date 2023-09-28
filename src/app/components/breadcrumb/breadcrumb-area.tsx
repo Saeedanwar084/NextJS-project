@@ -3,7 +3,7 @@ import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 import default_bg from '@/assets/img/bg/breadcrumb_bg01.jpg';
 import default_brd_img from '@/assets/img/others/breadcrumb_img01.png';
-
+import img from "@/assets/img/rotation.png"
 // props type
 type IProps = {
     bg?:StaticImageData,
@@ -30,7 +30,7 @@ const BreadcrumbArea = ({bg=default_bg,brd_img=default_brd_img,title,subtitle}:I
                 </div>
                 <div className="col-xl-6 col-lg-5 position-relative d-none d-lg-block">
                     <div className="breadcrumb__img">
-                        <Image src={brd_img} alt="img" style={{height:'auto',width:'auto'}} />
+                        <Image src={img} alt="img" style={{height:'auto',width:'auto'}} />
                     </div>
                 </div>
             </div>

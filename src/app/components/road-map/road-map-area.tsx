@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { InView } from "react-intersection-observer";
 import bg from "@/assets/img/bg/roadmap_bg.jpg";
-import road_map from "@/assets/img/others/roadmap.png";
+import road_map from "@/assets/img/Vocalify Images/roadmap.png";
 import road_map_step from "@/assets/img/others/roadmap_img.png";
 import useTextAnimation from "@/hooks/use-text-animation";
 
@@ -41,6 +41,42 @@ const road_map_lists: IRoadMap[] = [
     title: "Q2-Part-1 2024",
     lists: [
       { active: true, text: "Community Showcase: Monthly spotlight on exceptional projects and contributions.Governance Mechanism: Introduction of token-based governance.Strategic Partnerships: Announcement of collaborations with key industry players." },
+    ],
+  },
+
+  {
+    id: 4,
+    active: false,
+    title: "Q2-Part-2 2024",
+    lists: [
+      { active: true, text: "Mobile App Launch: Release of Vocalify mobile application for iOS and Android. Advanced Real-Time Rendering: Implementation of faster, more efficient real-time voice cloning.Liquidity Pool Expansion: Increase liquidity pools across decentralized exchanges." },
+    ],
+  },
+
+  {
+    id: 5,
+    active: false,
+    title: "Q3- 2024",
+    lists: [
+      { active: true, text: "Voice Customization Suite: Advanced tools for fine-tuning voice models.NFT Integration: Unique, tradable voice models enabled by blockchain.Global Expansion: Extend market reach to new geographical areas." },
+    ],
+  },
+
+  {
+    id: 6,
+    active: false,
+    title: "Future Outlook",
+    lists: [
+      { active: true, text: "Continuous Improvement: Ongoing updates based on user feedback and technological advancements. Enterprise Solutions: Customized voice cloning services for corporate clients. Community-Driven Initiatives: More opportunities for community members to influence the platform’s development." },
+    ],
+  },
+
+  {
+    id: 7,
+    active: false,
+    title: "Q4 2023",
+    lists: [
+      { active: true, text: "Beta Launch: Initial testing phase for core functionalities.Community Onboarding: Initiate forums and community engagement channels.Token Pre-Sale: Early investment opportunities for VCF await." },
     ],
   },
   // {
@@ -107,9 +143,9 @@ const RoadMapArea = () => {
                     <Image
                       src={road_map}
                       className="tg-parallax"
-                      data-scale="1.5"
+                      data-scale="1.0"
                       data-orientation="down"
-                      alt="roadMap__img"
+                      alt="roadMap__img" style={{height: "auto"}}
                     />
                   </div>
                 </div>

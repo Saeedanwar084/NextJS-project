@@ -25,20 +25,44 @@ const service_items:{
   {
     id:2,
     icon:'flaticon-user-profile',
-    title:'User-Friendly Interface',
-    desc:'With an intuitive dashboard and simple customization options, creating your own voice clone has never been easier or more accessible.'
+    title:'Emotional Versatility',
+    desc:'Vocalify can produce voice clones that express a wide range of emotions, enabling more genuine and empathetic interactions with your audience.'
   },
   {
     id:3,
     icon:'flaticon-ethereum',
-    title:'High-Quality Audio',
-    desc:'Our algorithms generate crystal-clear audio output, ensuring that your voice clones meet the highest industry standards for sound quality.'
+    title:'Multi-Language Support',
+    desc:"Whether you're looking to clone voices in English, Spanish, Mandarin, or more, Vocalify supports a multitude of languages to bring your global projects to life."
   },
   {
     id:4,
     icon:'flaticon-settings-1',
+    title:'High-Quality Audio',
+    desc:'Our algorithms generate crystal-clear audio output, ensuring that your voice clones meet the highest industry standards for sound quality.'
+  },
+  {
+    id:5,
+    icon:'flaticon-settings-1',
+    title:'User-Friendly Interface',
+    desc:'With an intuitive dashboard and simple customization options, creating your own voice clone has never been easier or more accessible.'
+  },
+  {
+    id:6,
+    icon:'flaticon-settings-1',
+    title:'Data Security',
+    desc:'Your privacy is our top priority. All voice data is securely encrypted, and we adhere to stringent data protection protocols.'
+  },
+  {
+    id:7,
+    icon:'flaticon-settings-1',
     title:'Real-Time Rendering',
     desc:'Need a voice clone in a pinch? Our powerful algorithms can generate voiceovers in real-time, speeding up your creative process.'
+  },
+  {
+    id:8,
+    icon:'flaticon-settings-1',
+    title:'API Access',
+    desc:"For developers looking to integrate Vocalify's capabilities into their own platforms, we offer a robust API that makes implementation seamless."
   }
 ];
 
@@ -53,21 +77,17 @@ const ServicesArea = () => {
     setActiveIndex(index);
   };
   return (
-    <section style={{paddingBottom: "50px"}} className="services-area services__bg-color section-pt-120 section-pb-120">
-    <div className="container  mb-60">
+    <section style={{paddingBottom: "10px"}} className="section-pt-30">
+    <div className="">
         <div className="row align-items-end align-items-xl-start">
-            <div className="col-lg-6">
-                <div className="section__title text-start mb-65">
-                    <span className="sub-title tg__animate-text">powerful services</span>
-                    <h3 className="title">Our Powerful Services Done on time</h3>
-                </div>
-                <div className="services__wrapper">
+            <div style={{width: "100%"}} className="">
+                <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center"}} className="services__wrapper">
                   {service_items.map((item,i) => (
                     <div key={item.id} className="services__item" onMouseOver={() => handleMouseOver(i)} onMouseOut={()=> handleMouseOut(i)}>
-                        <div className="services__icon">
-                            <i className={item.icon}></i>
-                        </div>
-                        <div className="services__content">
+                        {/* <div className="services__icon"> */}
+                            {/* <i className={item.icon}></i> */}
+                        {/* </div> */}
+                        <div style={{width: "300px"}} className="services__content">
                             <h4 className="title"><Link href="/service-details">{item.title}</Link></h4>
                             <p>{item.desc}</p>
                         </div>
@@ -75,18 +95,18 @@ const ServicesArea = () => {
                   ))}
                 </div>
             </div>
-            <div className="col-lg-6">
-                <div className="services__images">
-                  <div className={`services__images-item active `}>
-                        <Image src={service_img_5} alt="img" style={{width:'100%',height:'100%'}} />
-                    </div>
+            {/* <div className="col-lg-6"> */}
+                {/* <div className="services__images"> */}
+                  {/* <div className={`services__images-item active `}> */}
+                        {/* <Image src={service_img_5} alt="img" style={{width:'100%',height:'100%'}} /> */}
+                    {/* </div> */}
                   {/* {service_images.map((s,i) => ( */}
                         {/* <Link href="/service-details" className="services__link"> */}
                             {/* <i className="flaticon-next"></i> */}
                         {/* </Link> */}
                   {/* ))} */}
-                </div>
-            </div>
+                {/* </div> */}
+            {/* </div> */}
         </div>
     </div>
   </section>

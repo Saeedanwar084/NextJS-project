@@ -21,18 +21,27 @@ const menu_data:IMenuDataType[] = [
   },
   {
     id:2,
-    title:'FEATURES',
-    link:'#experienceArea',
+    title:'ABOUT US',
+    link:'/about',
+    // sub_menu:[
+      // {title:'Home One',link:'/'},
+      // {title:'Home Two',link:'/home-2'},
+    // ]
   },
   {
     id:3,
-    title:'TOKENOMICS',
-    link:'#TOKENOMICSArea'
+    title:'FEATURES',
+    link:'/#experienceArea',
   },
   {
     id:4,
+    title:'TOKENOMICS',
+    link:'/#TOKENOMICSArea'
+  },
+  {
+    id:5,
     title:'VOICES',
-    link:'#topvoices'
+    link:'/#topvoices'
   },
   // {
   //   id:4,
@@ -58,12 +67,12 @@ const menu_data:IMenuDataType[] = [
   {
     id:6,
     title:'COMMUNITY',
-    link:'#communitypage',
+    link:'/#communitypage',
   },
   {
-    id:6,
+    id:7,
     title:'CONTACT US',
-    link:'#contactus',
+    link:'/#contactus',
   },
   // 
 ]

@@ -18,17 +18,16 @@ export default function AboutPage() {
         {/* breadcrumb area start */}
         <BreadcrumbArea title="ABOUT US" subtitle="ABOUT US" />
         {/* breadcrumb area end */}
-
         {/* about area start */}
         <AboutAreaThree/>
         {/* about area end */}
 
         {/* Services area start*/}
-        <ServicesArea/>
+        {/* <ServicesArea/> */}
         {/* Services area end*/}
 
         {/* team area start */}
-        <TeamArea/>
+        {/* <TeamArea/> */}
         {/* team area end */}
       </main>
       {/* main area end */}
