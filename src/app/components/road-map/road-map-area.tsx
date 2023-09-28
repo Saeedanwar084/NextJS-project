@@ -121,7 +121,7 @@ const RoadMapArea = () => {
 
   return (
     <section
-      className="roadMap__area roadMap-bg section-pt-150 section-pb-150"
+      id="#roadmap" className="roadMap__area roadMap-bg section-pt-150 section-pb-150"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <div className="container">
