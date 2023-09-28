@@ -66,8 +66,8 @@ const menu_data:IMenuDataType[] = [
   // },
   {
     id:6,
-    title:'COMMUNITY',
-    link:'/#communitypage',
+    title:'ROADMAP',
+    link:'/#roadmap',
   },
   {
     id:7,
