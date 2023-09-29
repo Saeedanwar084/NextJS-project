@@ -9,26 +9,28 @@ import jsPDF from "jspdf";
 import { Atomic_Age } from "next/font/google";
 import { blob } from "stream/consumers";
 const HeroBannerTwo = () => {
-  const url = "http://localhost:3000/VCF_WHITEPAPERS.pdf"
   const downloadFile = async () => {
     try {
-      const response = await fetch(url);
-      const blob = await response.blob();
-      const blobUrl = window.URL.createObjectURL(blob);
-      const aTag = document.createElement("a");
-      aTag.href = blobUrl;
-      aTag.setAttribute("download", "VCF_WHITEPAPERS.pdf");
-      document.body.appendChild(aTag);
-      aTag.click();
-      document.body.removeChild(aTag);
-      // Release the blob URL to free up resources
-      window.URL.revokeObjectURL(blobUrl);
+      const url = `/VCF_WHITEPAPERS.pdf`;
+
+      if (typeof window !== 'undefined') {
+        const response = await fetch(url);
+        const blob = await response.blob();
+        const blobUrl = window.URL.createObjectURL(blob);
+        const aTag = document.createElement("a");
+        aTag.href = blobUrl;
+        aTag.setAttribute("download", "VCF_WHITEPAPERS.pdf");
+        document.body.appendChild(aTag);
+        aTag.click();
+        document.body.removeChild(aTag);
+        // Release the blob URL to free up resources
+        window.URL.revokeObjectURL(blobUrl);
+      }
     } catch (error) {
       console.error("Error downloading file:", error);
     }
   }
-
-  return (
+    return (
     <section className="banner__area banner__padding">
       <div
         className="banner__bg tg-jarallax"
@@ -42,7 +44,7 @@ const HeroBannerTwo = () => {
                 Transforming Voices
               </h2>
               <p className="wow bounceInLeft" data-wow-delay=".4s">
-                Changing World
+              through Artificial Intelligence & Machine Learning
               </p>
               <div
                 className="banner__btn wow bounceInLeft"
@@ -50,7 +52,7 @@ const HeroBannerTwo = () => {
               >
                 <Link href="#" onClick={downloadFile} className="tg-btn-3 tg-svg mx-auto" style={{ "width": "500px" }} >
                   <SvgIconCom icon={shape} id="svg-1" />
-                  <span style={{fontSize: "13px"}}>DOWNLOAD WHITEPAPER</span>
+                  <span>DOWNLOAD</span>
                 </Link>
                 {/* <a href="/VCF_WHITEPAPERS.pdf" download>Download PDF</a> */}
               </div>
