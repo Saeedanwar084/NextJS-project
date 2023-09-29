@@ -40,7 +40,7 @@ const HeroBannerTwo = () => {
         <div className="row justify-content-center">
           <div className="col-xl-8 col-lg-10">
             <div className="banner__content slider__content text-center">
-              <h2 className="title wow bounceInLeft" style={{ fontSize: '50px' }} data-wow-delay=".2s">
+              <h2 className="title wow bounceInLeft" style={{ fontSize: '48px' }} data-wow-delay=".2s">
                 Transforming Voices
               </h2>
               <p className="wow bounceInLeft" data-wow-delay=".4s">
@@ -50,9 +50,9 @@ const HeroBannerTwo = () => {
                 className="banner__btn wow bounceInLeft"
                 data-wow-delay=".6s"
               >
-                <Link href="#" onClick={downloadFile} className="tg-btn-3 tg-svg mx-auto" style={{ "width": "500px" }} >
+                <Link href="#" onClick={downloadFile} className="tg-btn-3 tg-svg mx-auto" >
                   <SvgIconCom icon={shape} id="svg-1" />
-                  <span>DOWNLOAD</span>
+                  <span>WHITEPAPER</span>
                 </Link>
                 {/* <a href="/VCF_WHITEPAPERS.pdf" download>Download PDF</a> */}
               </div>

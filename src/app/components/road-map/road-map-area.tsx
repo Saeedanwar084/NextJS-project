@@ -169,11 +169,6 @@ const RoadMapArea = () => {
                             </li>
                           ))}
                         </InView>
-                        <Image
-                          src={road_map_step}
-                          alt="img"
-                          className="roadMap__steps-img"
-                        />
                       </div>
                     ))}
                   </div>

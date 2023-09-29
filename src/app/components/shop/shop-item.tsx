@@ -7,18 +7,18 @@ const ShopItem = ({ item }: { item: IProduct }) => {
   return (
     <div className="shop__item">
       <div className="shop__item-thumb">
-        <Link href={`/shop-details/${item.id}`}>
+        <div>
           <Image src={item.img} alt="img" style={{width:'auto',height:'auto'}} />
-        </Link>
-        <Link href="#" className="wishlist-button">
+        </div>
+        <div className="wishlist-button">
           <i className="far fa-heart"></i>
-        </Link>
+        </div>
       </div>
       <div className="shop__item-line"></div>
       <div className="shop__item-content">
         <div className="shop__item-content-top">
           <h4 className="title">
-            <Link href={`/shop-details/${item.id}`}>{item.title}</Link>
+            <p style={{fontWeight: "bold", fontSize: "20px"}}>{item.title}</p>
           </h4>
           <div className="shop__item-price">{item.price}</div>
         </div>

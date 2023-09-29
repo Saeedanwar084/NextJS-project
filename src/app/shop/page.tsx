@@ -4,6 +4,7 @@ import Header from "@/layout/header/header";
 import Footer from "@/layout/footer/footer";
 import BreadcrumbAreaThree from "../components/breadcrumb/breadcrumb-area-3";
 import ShopArea from "../components/shop/shop-area";
+import FooterTwo from "@/layout/footer/footer-2";
 
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function ShopPage() {
 
         {/* shop area start */}
         <ShopArea/>
+        <FooterTwo/>
         {/* shop area end */}
 
       </main>
