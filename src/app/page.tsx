@@ -42,7 +42,7 @@ export default function HomeTwo() {
         <div className="area-background" style={{backgroundImage:`url(${area_bg.src})`}}>
 
         {/* about-area */}
-        {/* <AboutAreaTwo/> */}
+        <AboutAreaTwo/>
         {/* about-area-end */}
 
         {/* streamers area start */}
