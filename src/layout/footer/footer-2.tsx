@@ -68,7 +68,7 @@ const FooterTwo = () => {
                             <div className="footer-el-menu">
                                 <ul className="list-wrap">
                                     <li><Link href="/">Home</Link></li>
-                                    <li><Link href="/about">About Us</Link></li>
+                                    <li><Link href="/#aboutSec">About Us</Link></li>
                                     <li><Link href="/shop">MARTKETPLACE</Link></li>
                                     <li><Link href="#experienceArea">FEATURES</Link></li>
                                     <li><Link href="#TOKENOMICSArea">TOKENOMIC</Link></li>
