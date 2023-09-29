@@ -13,7 +13,6 @@ import BrandArea from "./components/brand/brand-area";
 import FooterTwo from "@/layout/footer/footer-2";
 import RoadMapArea from "./components/road-map/road-map-area";
 import AboutAreaThree from "./components/about-area/about-area-3";
-import BreadcrumbArea from "./components/breadcrumb/breadcrumb-area";
 export const metadata: Metadata = {
   title: "Home Page Two",
 };
@@ -31,8 +30,9 @@ export default function HomeTwo() {
         <HeroBannerTwo />
         {/* hero banner end */}
 
-        <BreadcrumbArea title="ABOUT US" subtitle="ABOUT US" />
+        {/* about section start */}
         <AboutAreaThree />
+        {/* about section end */}
 
         {/* match result start */}
         <MatchResultArea/>
