@@ -1,3 +1,4 @@
+"use client";
 import { Metadata } from "next";
 import Wrapper from "@/layout/wrapper";
 import Header from "@/layout/header/header";
