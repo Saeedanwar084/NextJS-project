@@ -39,7 +39,7 @@ const handleIncrement = (value:string) => {
                       </div>
                       <h2 className="title">game controller</h2>
                       <div className="shop__details-price">
-                          <span className="amount">${product.price.toFixed(2)} <span className="stock-status">- {product.status}</span></span>
+                          {/* <span className="amount">${product.price.toFixed(2)} <span className="stock-status">- {product.status}</span></span> */}
                       </div>
                       <div className="shop__details-short-description">
                           <p>{product.description}</p>
