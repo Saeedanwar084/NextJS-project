@@ -45,8 +45,8 @@ const MatchResultArea = () => {
                 <div className="row justify-content-center">
                     <div className="col-xl-6 col-lg-7 col-md-10">
                         <div className="section__title text-center mb-55" style={{ color: "#800080" }}>
-                            <TextAnimation title="LATEST RESULTS FOR" />
-                            <h3 className="title">EXPERIENCE JUST FOR</h3>
+                            <h3 className="title">INNOVATIVE FEATURES</h3>
+                            <TextAnimation title="Unleash the Potential: Features Overview" />
                         </div>
                     </div>
                 </div>
