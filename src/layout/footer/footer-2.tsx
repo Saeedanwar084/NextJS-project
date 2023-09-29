@@ -47,8 +47,8 @@ const FooterTwo = () => {
         </div>
         <div className="footer__two-widgets">
             <div className="container custom-container">
-                <div className="row">
-                    <div className="col-md-4 col-sm-7 order-1 order-md-0">
+                <div  className="row">
+                    {/* <div className="col-md-4 col-sm-7 order-1 order-md-0">
                         <div className="footer-el-widget">
                             <h4 className="title">information</h4>
                             <ul className="list-wrap">
@@ -57,8 +57,8 @@ const FooterTwo = () => {
                                 <li>Firestone building, Sharjah Ain <br/> Box 265, Dubai</li>
                             </ul>
                         </div>
-                    </div>
-                    <div className="col-md-4 col-sm-5 order-0 order-md-2">
+                    </div> */}
+                    <div style={{margin: "auto"}} className="col-md-4 col-sm-5 order-0 order-md-2">
                         <div className="footer-el-widget text-start text-md-center widget_nav_menu">
                             <div className="footer-el-logo mb-35">
                                 <Link href="/">
@@ -69,12 +69,17 @@ const FooterTwo = () => {
                                 <ul className="list-wrap">
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/about">About Us</Link></li>
-                                    <li><Link href="/tournament">Tournament</Link></li>
+                                    <li><Link href="/shop">MARTKETPLACE</Link></li>
+                                    <li><Link href="#experienceArea">FEATURES</Link></li>
+                                    <li><Link href="#TOKENOMICSArea">TOKENOMIC</Link></li>
+                                    <li><Link href="#topvoices">VOICES</Link></li>
+                                    <li><Link href="#roadmap">ROADMAP</Link></li>
+                                    <li><Link href="#contactus">CONTACT US</Link></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-7 order-3">
+                    {/* <div className="col-md-4 col-sm-7 order-3">
                         <div className="footer-el-widget text-start text-md-end">
                             <h4 className="title">head office</h4>
                             <ul className="list-wrap">
@@ -83,27 +88,18 @@ const FooterTwo = () => {
                                 <li>New Central Park W7 Street Lan <br/> France</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
         <div className="copyright__wrap -style-two">
             <div className="container custom-container">
                 <div className="row align-items-center">
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                         <div className="copyright__text text-center text-lg-start">
                             <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Mykd</span></p>
                         </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <div className="copyright__menu">
-                            <ul className="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
-                                <li><Link href="/contact">Contact Us</Link></li>
-                                <li><Link href="/contact">Join our team</Link></li>
-                                <li><Link href="/contact">Privacy Policy</Link></li>
-                            </ul>
-                        </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
