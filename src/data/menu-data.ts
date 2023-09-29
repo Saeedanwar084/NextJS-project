@@ -29,6 +29,11 @@ const menu_data:IMenuDataType[] = [
     // ]
   },
   {
+    id:10,
+    title:'MARKETPLACE',
+    link:'/shop'
+  },
+  {
     id:3,
     title:'FEATURES',
     link:'/#experienceArea',
@@ -73,7 +78,7 @@ const menu_data:IMenuDataType[] = [
     id:7,
     title:'CONTACT US',
     link:'/#contactus',
-  },
+  }
   // 
 ]
 

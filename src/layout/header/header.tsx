@@ -58,7 +58,7 @@ const Header = ({style_2=false}:{style_2?:boolean}) => {
                         menu.sub_menu ? (
                           <li
                             key={menu.id}
-                            className={`menu-item ${menu.sub_menu && menu.sub_menu.some(sub => pathname === sub.link) ? 'menu-item-has-children active' : ''}`}
+                            className={`menu-item ${menu.sub_menu && menu.sub_menu.some(sub => pathname === sub.link) ? 'menu-item-has-children active' : ''}` }
                           >
                             <Link href="#">{menu.title}</Link>
                             <ul className="sub-menu">
@@ -71,7 +71,7 @@ const Header = ({style_2=false}:{style_2?:boolean}) => {
                           </li>
                         ) : (
                           <li key={menu.id} className={pathname === menu.link ? 'active' : ''}>
-                            <Link href={menu.link}>{menu.title}</Link>
+                            <Link style={{fontSize: "13px"}} href={menu.link}>{menu.title}</Link>
                           </li>
                         )
                       )}

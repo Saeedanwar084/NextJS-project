@@ -58,7 +58,7 @@ const ShopSidebar = () => {
                     <h4 className="product-name">
                         <Link href={`/shop-details/${item.id}`}>{item.title}</Link>
                     </h4>
-                    <span className="amount">${item.price}</span>
+                    <span className="amount">{item.price}</span>
                 </div>
             </div>
             ))}

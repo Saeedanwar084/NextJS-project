@@ -4,7 +4,7 @@ export interface IProduct {
   id: number;
   img: StaticImageData;
   title: string;
-  price: number;
+  price: string;
   category: string;
   description: string;
   status: string;

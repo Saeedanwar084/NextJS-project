@@ -20,7 +20,7 @@ export default function ShopPage() {
       {/* main area start */}
       <main className="main--area">
         {/* breadcrumb area start */}
-       <BreadcrumbAreaThree title="NFT COLLECTIONS" subtitle="OUR SHOP" />
+       <BreadcrumbAreaThree title="AI Model Marketplace" subtitle="Marketplace" />
         {/* breadcrumb area end */}
 
         {/* shop area start */}

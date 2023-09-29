@@ -29,7 +29,7 @@ const streamers_data: {
   {
     id:1,
     img:stream_1,
-    title:'Michael Jackson'
+    title:'Michael Jackson',
   },
   {
     id:2,

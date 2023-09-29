@@ -20,7 +20,7 @@ const ShopItem = ({ item }: { item: IProduct }) => {
           <h4 className="title">
             <Link href={`/shop-details/${item.id}`}>{item.title}</Link>
           </h4>
-          <div className="shop__item-price">${item.price}</div>
+          <div className="shop__item-price">{item.price}</div>
         </div>
         <div className="shop__item-cat">
           <Link href="/shop">{item.category}</Link>
