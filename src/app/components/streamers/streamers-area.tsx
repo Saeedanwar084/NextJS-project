@@ -140,7 +140,7 @@ const StreamersArea = () => {
         </div>
         <div className="" style={{"display": "flex", "justifyContent": "center", "alignItems": "center", "flexWrap": "wrap"}}>
           {streamers_data.map((item,i) => (
-            <div key={item.id} style={{"height": "280px", width: "200px", margin: "10px"}}>
+            <div key={item.id} style={{"height": "280px", width: "150px", margin: "10px"}}>
                 <div className="streamers__item">
                     <div className="streamers__thumb">
                         <Link href="/team-details">
