@@ -138,9 +138,9 @@ const StreamersArea = () => {
                 </div>
             </div>
         </div>
-        <Swiper {...slider_setting} modules={[Navigation,Pagination]} className="swiper-container streamers-active">
+        <div className="" style={{"display": "flex", "justifyContent": "center", "alignItems": "center", "flexWrap": "wrap"}}>
           {streamers_data.map((item,i) => (
-            <SwiperSlide key={item.id}>
+            <div key={item.id} style={{"height": "280px", width: "200px", margin: "10px"}}>
                 <div className="streamers__item">
                     <div className="streamers__thumb">
                         <Link href="/team-details">
@@ -151,9 +151,9 @@ const StreamersArea = () => {
                         <h4 className="name">{item.title}</h4>
                     </div>
                 </div>
-            </SwiperSlide>
+            </div>
           ))}
-        </Swiper>
+        </div>
         <div className="streamers__pagination">
             <div className="slider-button-prev streamers__pagination-arrow"><i className="fas fa-angle-left"></i></div>
             <div className="swiper-pagination streamers__pagination-dots"></div>
