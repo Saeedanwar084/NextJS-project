@@ -22,7 +22,7 @@ const menu_data:IMenuDataType[] = [
   {
     id:2,
     title:'ABOUT US',
-    link:'/about',
+    link:'/#aboutSec',
     // sub_menu:[
       // {title:'Home One',link:'/'},
       // {title:'Home Two',link:'/home-2'},

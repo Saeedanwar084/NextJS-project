@@ -9,7 +9,7 @@ import mask_img_2 from '@/assets/img/others/mask_img02.jpg';
 
 const AboutAreaThree = () => {
   return (
-    <section className="about__area-three section-pt-10 section-pb-70">
+    <section className="about__area-three section-pt-10 section-pb-70" id="aboutSec">
     <div className="container">
         {/* <div className="row">
             <div className="col-xl-4">
