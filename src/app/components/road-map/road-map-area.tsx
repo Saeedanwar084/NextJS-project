@@ -20,9 +20,17 @@ type IRoadMap = {
 };
 const road_map_lists: IRoadMap[] = [
   {
+    id: 7,
+    active: false,
+    title: "Q4 2023",
+    lists: [
+      { active: true, text: "Beta Launch: Initial testing phase for core functionalities.Community Onboarding: Initiate forums and community engagement channels.Token Pre-Sale: Early investment opportunities for VCF await." },
+    ],
+  },
+  {
     id: 1,
     active: true,
-    title: "Q1-Part-1 2024",
+    title: "Q1- 2024",
     lists: [
       { active: true, text: "Platform Launch: Official release of the Vocalify platform.AI Model Marketplace Debut: Introduction of premium voice models.Staking Program Initiation: Begin staking options for VCF holders." },
     ],
@@ -30,7 +38,7 @@ const road_map_lists: IRoadMap[] = [
   {
     id: 2,
     active: false,
-    title: "Q2-Part-2 2024",
+    title: "Q2- 2024",
     lists: [
       { active: true, text: "Mobile App Launch: Release of Vocalify mobile application for iOS and Android. Advanced Real-Time Rendering: Implementation of faster, more efficient real-time voice cloning.Liquidity Pool Expansion: Increase liquidity pools across decentralized exchanges." },
     ],
@@ -38,7 +46,7 @@ const road_map_lists: IRoadMap[] = [
   {
     id: 3,
     active: false,
-    title: "Q2-Part-1 2024",
+    title: "Q3- 2024",
     lists: [
       { active: true, text: "Community Showcase: Monthly spotlight on exceptional projects and contributions.Governance Mechanism: Introduction of token-based governance.Strategic Partnerships: Announcement of collaborations with key industry players." },
     ],
@@ -70,15 +78,6 @@ const road_map_lists: IRoadMap[] = [
       { active: true, text: "Continuous Improvement: Ongoing updates based on user feedback and technological advancements. Enterprise Solutions: Customized voice cloning services for corporate clients. Community-Driven Initiatives: More opportunities for community members to influence the platform’s development." },
     ],
   },
-
-  {
-    id: 7,
-    active: false,
-    title: "Q4 2023",
-    lists: [
-      { active: true, text: "Beta Launch: Initial testing phase for core functionalities.Community Onboarding: Initiate forums and community engagement channels.Token Pre-Sale: Early investment opportunities for VCF await." },
-    ],
-  },
   // {
   //   id: 4,
   //   active: false,
@@ -107,6 +106,7 @@ const road_map_lists: IRoadMap[] = [
   //   ],
   // },
 ];
+
 
 const RoadMapArea = () => {
   const [isView, setIsView] = useState<boolean>(false);
