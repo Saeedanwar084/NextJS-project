@@ -63,7 +63,7 @@ const AboutAreaTwo = () => {
                            <div className="about__funFact-lists">
                               <div className="about__funFact-item">
                                  <h2 className="count">
-                                    <CounterUp number={2000000} />
+                                    <CounterUp number={200000000} />
                                  </h2>
                                  <p>Total Supply</p>
                               </div>
