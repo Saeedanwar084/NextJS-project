@@ -14,7 +14,7 @@ import FooterTwo from "@/layout/footer/footer-2";
 import RoadMapArea from "./components/road-map/road-map-area";
 import AboutAreaThree from "./components/about-area/about-area-3";
 export const metadata: Metadata = {
-  title: "Home Page Two",
+  title: "Vocalify - Transforming Voices through AI & ML",
 };
 
 export default function HomeTwo() {
